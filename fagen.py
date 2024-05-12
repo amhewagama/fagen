@@ -12,7 +12,7 @@ TABLE_NAMES = ["size","product","style_master"]
 DB_HOST = 'localhost'
 DB_USER = 'root'
 DB_PASSWORD = ''
-DB_NAME = 'flinker_production'
+DB_NAME = 'fa_db'
 
 
 if not os.path.exists(f"{MODULE_NAME}"):
