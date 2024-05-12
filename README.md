@@ -4,26 +4,29 @@
 
   <p>The Front Accounting App Generator is a powerful tool designed to streamline the process of generating user interfaces for Front Accounting modules. Front Accounting is a comprehensive accounting solution tailored for small and medium-sized companies. This generator simplifies the development process by automatically creating user interfaces based on MySQL tables.</p>
 
-  <h2>How It Works</h2>
+<h2>How It Works</h2>
 
-  <ol>
-    <li><strong>Connect to MySQL Database:</strong> The generator connects to your MySQL database where the Front Accounting tables are stored.</li>
-    <li><strong>Analyze Table Structure:</strong> It examines the structure of each table, including column names, data types, and relationships.</li>
-    <li><strong>Generate User Interface:</strong> Based on the table structure, the generator creates the corresponding user interface elements such as forms, tables, and menus.</li>
-    <li><strong>Customization Options:</strong> Users have the option to customize the generated interfaces according to their specific requirements. This may include modifying layout, adding custom fields, or adjusting styling.</li>
-    <li><strong>Export and Integration:</strong> Once satisfied with the generated interface, users can export the code and integrate it seamlessly into their Front Accounting instance.</li>
-  </ol>
+<p>The Front Accounting App Generator is a separate Python tool designed to generate user interfaces externally. It operates independently from the Front Accounting system itself. Here's how the process works:</p>
 
-  <h2>Need to Develop</h2>
+<ol>
+  <li><strong>Generate Module:</strong> First, you use the generator to create a module with the required user interface components based on your MySQL tables.</li>
+  <li><strong>Copy Module to Front Accounting:</strong> Once the module is generated, you copy it to your Front Accounting instance.</li>
+  <li><strong>Access Setup:</strong> Set up access permissions for the newly created module within Front Accounting to ensure appropriate user access.</li>
+  <li><strong>Add to App Menu:</strong> Next, you add the module to the application menu so users can access it seamlessly.</li>
+  <li><strong>Apply Required Modifications:</strong> Finally, you may need to make any necessary modifications or customizations within the Front Accounting instance to ensure the module functions correctly within the broader system.</li>
+</ol>
 
-  <p>While the Front Accounting App Generator simplifies the process of creating user interfaces for Front Accounting modules, there are areas where further development is needed to enhance its functionality and usability. Some potential areas for development include:</p>
+<p>By following these steps, you can efficiently generate and integrate user interfaces for your Front Accounting modules.</p>
 
-  <ul>
-    <li><strong>Enhanced Customization:</strong> Providing more advanced customization options to tailor the generated interfaces to specific business needs.</li>
-    <li><strong>Improved User Experience:</strong> Continuously refining the user interface of the generator to make it more intuitive and user-friendly.</li>
-    <li><strong>Compatibility Updates:</strong> Ensuring compatibility with the latest versions of Front Accounting and MySQL, and addressing any compatibility issues that may arise.</li>
-    <li><strong>Community Contributions:</strong> Encouraging contributions from the developer community to add new features, fix bugs, and improve overall performance.</li>
-  </ul>
+
+<h2>Need to Develop</h2>
+
+<ul>
+  <li><strong>Dropdown Fields Identification:</strong> Currently, dropdown fields are not automatically identified from the database table. Development is needed to create functions that can identify dropdown fields and generate dropdown controls accordingly.</li>
+  <li><strong>Generate Dropdown Functions:</strong> To support dropdown fields, specific functions need to be developed within the generator to generate dropdown controls based on the identified fields.</li>
+  <li><strong>Replace Dropdown Functionality:</strong> Additionally, there's a need to implement functionality to replace dropdown controls with text controls if required. This ensures flexibility in handling different types of data inputs.</li>
+</ul>
+
 
   <h2>Getting Started</h2>
 
