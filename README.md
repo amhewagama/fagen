@@ -41,3 +41,18 @@
 
   <p>This project is licensed under the <a href="link-to-license">MIT License</a>. See the LICENSE file for details.</p>
 
+
+  <h2>Front Accounting Project</h2>
+
+  <p>FrontAccounting is a robust accounting system that supports double-entry accounting, providing both low-level journal entry and user-friendly, document-based interfaces for everyday business activities with automatic GL postings generation. It is a multicurrency, multilanguage system with an active worldwide user community.</p>
+
+  <ul>
+    <li><strong>Project Website:</strong> <a href="http://frontaccounting.com">http://frontaccounting.com</a></li>
+    <li><strong>SourceForge Project Page:</strong> <a href="http://sourceforge.net/projects/frontaccounting/">http://sourceforge.net/projects/frontaccounting/</a></li>
+    <li><strong>Central Users Forum:</strong> <a href="http://frontaccounting.com/punbb/index.php">http://frontaccounting.com/punbb/index.php</a></li>
+    <li><strong>Main Code Repository:</strong> <a href="https://sourceforge.net/p/frontaccounting/git/ci/master/tree/">https://sourceforge.net/p/frontaccounting/git/ci/master/tree/</a></li>
+    <li><strong>GitHub Mirror:</strong> <a href="http://github.com/FrontAccountingERP/FA">http://github.com/FrontAccountingERP/FA</a></li>
+    <li><strong>Mantis Bugtracker:</strong> <a href="http://mantis.frontaccounting.com">http://mantis.frontaccounting.com</a></li>
+  </ul>
+
+  <p>FrontAccounting is available under the GPL v.3 license.</p>
